@@ -32,3 +32,17 @@ queue.push('Elena');
 
 console.log(queue);
 
+// Exercise #2
+
+// *  
+// * *  
+// * * *  
+// * * * *  
+// * * * * *
+let stars = '';
+for(let i=1; i<=5; i++){
+    for(let j=0; j<1; j++){
+   stars = stars + '* ';
+   console.log(stars);
+    }
+}
